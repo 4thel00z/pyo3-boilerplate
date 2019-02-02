@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+pytest = "*"
+pytest-runner = "*"
+pytest-benchmark = "*"
+wheel = "*"
+pylint = "*"
+hypothesis = "*"
+autopep8 = "*"
+pyo3-pack = "*"
+
+[packages]
+pyo3-pack = "*"
+
+[requires]
+python_version = "3.7"

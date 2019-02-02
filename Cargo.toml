@@ -1,0 +1,13 @@
+[package]
+name = "boilerplate"
+version = "0.1.0"
+edition = "2018"
+authors = ["4thel00z <4thel00z@gmail.com>"]
+
+[lib]
+name = "boilerplate"
+crate-type = ["cdylib"]
+
+[dependencies.pyo3]
+version = "0.6.0-alpha.2"
+features = ["extension-module"]
